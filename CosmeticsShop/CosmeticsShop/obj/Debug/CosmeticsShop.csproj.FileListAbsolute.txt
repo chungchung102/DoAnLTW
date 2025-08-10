@@ -1,0 +1,327 @@
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\CosmeticsShop.dll.config
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\CosmeticsShop.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\CosmeticsShop.pdb
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\csc.exe
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\csc.exe.config
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\csc.rsp
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\csi.exe
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\csi.exe.config
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\csi.rsp
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.AppContext.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Console.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.IO.Compression.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Security.Claims.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.ValueTuple.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\vbc.exe
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\vbc.exe.config
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\vbc.rsp
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\VBCSCompiler.exe
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Antlr3.Runtime.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Newtonsoft.Json.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.Helpers.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.Mvc.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.Optimization.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.Razor.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.WebPages.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.WebPages.Razor.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\WebGrease.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.Helpers.xml
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.Mvc.xml
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.Optimization.xml
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.Razor.xml
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.WebPages.xml
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.WebPages.Razor.xml
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Newtonsoft.Json.xml
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Antlr3.Runtime.pdb
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\obj\Debug\CosmeticsShop.csproj.CoreCompileInputs.cache
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\obj\Debug\CosmeticsShop.csproj.CopyComplete
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\obj\Debug\CosmeticsShop.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\obj\Debug\CosmeticsShop.pdb
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\EntityFramework.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\EntityFramework.SqlServer.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\EntityFramework.xml
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\EntityFramework.SqlServer.xml
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\PayPal.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\PayPal.xml
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.ComponentModel.Annotations.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Data.SqlClient.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\TableDependency.SqlClient.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.Owin.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.Owin.Security.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Owin.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.AspNet.SignalR.Core.pdb
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.Owin.xml
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.Owin.Security.xml
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\ClosedXML.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\DocumentFormat.OpenXml.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\EPPlus.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\ExcelNumberFormat.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\OfficeOpenXml.Extends.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.IO.Packaging.dll
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\ClosedXML.pdb
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\ClosedXML.xml
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\DocumentFormat.OpenXml.xml
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\EPPlus.xml
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\ExcelNumberFormat.xml
+C:\Users\Khuong Nguyen\Desktop\Projects\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\obj\Debug\CosmeticsShop.csproj.AssemblyReference.cache
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\CosmeticsShop.dll.config
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\CosmeticsShop.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\CosmeticsShop.pdb
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\csc.exe
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\csc.exe.config
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\csc.rsp
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\csi.exe
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\csi.exe.config
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\csi.rsp
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\Microsoft.Managed.Core.targets
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.AppContext.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Collections.Immutable.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Console.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.IO.Compression.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.IO.FileSystem.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.IO.Pipes.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Reflection.Metadata.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Security.AccessControl.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Security.Claims.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Security.Principal.Windows.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.ValueTuple.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Xml.XmlDocument.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Xml.XPath.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\vbc.exe
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\vbc.exe.config
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\vbc.rsp
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\VBCSCompiler.exe
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\VBCSCompiler.exe.config
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Antlr3.Runtime.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\ClosedXML.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\DocumentFormat.OpenXml.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\EntityFramework.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\EntityFramework.SqlServer.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\EPPlus.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\ExcelNumberFormat.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.Owin.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.Owin.Security.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.Web.Infrastructure.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Newtonsoft.Json.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\OfficeOpenXml.Extends.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Owin.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\PayPal.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.ComponentModel.Annotations.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Data.SqlClient.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.IO.Packaging.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.Helpers.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.Mvc.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.Optimization.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.Razor.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.WebPages.Deployment.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.WebPages.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.WebPages.Razor.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\TableDependency.SqlClient.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\WebGrease.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\ClosedXML.pdb
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\ClosedXML.xml
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\DocumentFormat.OpenXml.xml
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\EntityFramework.xml
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\EntityFramework.SqlServer.xml
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\EPPlus.xml
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\ExcelNumberFormat.xml
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.AspNet.SignalR.Core.pdb
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.Owin.xml
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.Owin.Security.xml
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\PayPal.xml
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.Helpers.xml
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.Mvc.xml
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.Optimization.xml
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.Razor.xml
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.WebPages.xml
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.WebPages.Deployment.xml
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.WebPages.Razor.xml
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Newtonsoft.Json.xml
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Antlr3.Runtime.pdb
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\obj\Debug\CosmeticsShop.csproj.AssemblyReference.cache
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\obj\Debug\CosmeticsShop.csproj.CoreCompileInputs.cache
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\obj\Debug\CosmeticsShop.csproj.CopyComplete
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\obj\Debug\CosmeticsShop.dll
+C:\HoKienTHuc\Ltw\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\obj\Debug\CosmeticsShop.pdb
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\CosmeticsShop.dll.config
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\CosmeticsShop.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\CosmeticsShop.pdb
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\csc.exe
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\csc.exe.config
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\csc.rsp
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\csi.exe
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\csi.exe.config
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\csi.rsp
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.AppContext.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Console.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.IO.Compression.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Security.Claims.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.ValueTuple.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\vbc.exe
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\vbc.exe.config
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\vbc.rsp
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\VBCSCompiler.exe
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\ClosedXML.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\DocumentFormat.OpenXml.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\EntityFramework.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\EPPlus.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\ExcelNumberFormat.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.Owin.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.Owin.Security.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\OfficeOpenXml.Extends.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Owin.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\PayPal.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.ComponentModel.Annotations.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Data.SqlClient.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.IO.Packaging.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.Helpers.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.Optimization.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.Razor.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.WebPages.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\TableDependency.SqlClient.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\WebGrease.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\ClosedXML.pdb
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\ClosedXML.xml
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\DocumentFormat.OpenXml.xml
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\EntityFramework.xml
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\EPPlus.xml
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\ExcelNumberFormat.xml
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.AspNet.SignalR.Core.pdb
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.Owin.xml
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.Owin.Security.xml
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\PayPal.xml
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.Helpers.xml
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.Optimization.xml
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.Razor.xml
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.WebPages.xml
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Antlr3.Runtime.pdb
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\obj\Debug\CosmeticsShop.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\obj\Debug\CosmeticsShop.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\obj\Debug\Cosmetic.D9031354.Up2Date
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\obj\Debug\CosmeticsShop.dll
+C:\Users\Administrator\Desktop\LTWEB\cosmetics-shop-asp.net-mvc\CosmeticsShop\CosmeticsShop\obj\Debug\CosmeticsShop.pdb

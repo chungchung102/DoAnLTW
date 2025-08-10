@@ -77,7 +77,7 @@
           <Property Name="Address" Type="nvarchar" MaxLength="500" />
           <Property Name="Phone" Type="nchar" MaxLength="12" />
           <Property Name="UserTypeID" Type="int" />
-          <Property Name="Password" Type="nvarchar" MaxLength="50" />
+          <Property Name="Password" Type="nvarchar" MaxLength="64" />
           <Property Name="Avatar" Type="nvarchar" MaxLength="50" />
         </EntityType>
         <EntityType Name="UserType">
@@ -351,7 +351,7 @@
           <Property Name="Address" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
           <Property Name="Phone" Type="String" MaxLength="12" FixedLength="true" Unicode="true" />
           <Property Name="UserTypeID" Type="Int32" />
-          <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Password" Type="String" MaxLength="64" FixedLength="false" Unicode="true" />
           <Property Name="Avatar" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <NavigationProperty Name="Messages" Relationship="ShoppingModel.FK__Message__FromUse__36B12243" FromRole="User" ToRole="Message" />
           <NavigationProperty Name="Messages1" Relationship="ShoppingModel.FK__Message__ToUserI__37A5467C" FromRole="User" ToRole="Message" />

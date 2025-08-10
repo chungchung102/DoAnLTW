@@ -4,12 +4,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-
+using System.Security.Cryptography;
+using System.Text;
 namespace CosmeticsShop.Controllers
 {
     public class HomeController : Controller
     {
         ShoppingEntities db = new ShoppingEntities();
+        private string HashPassword(string password)
+        {
+            using (var sha256 = System.Security.Cryptography.SHA256.Create())
+            {
+                var hashedBytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
+                return BitConverter.ToString(hashedBytes).Replace("-", "").ToLower();
+            }
+        }
         public ActionResult Index()
         {
             if (Session["Cart"] == null)
@@ -26,6 +35,7 @@ namespace CosmeticsShop.Controllers
         [HttpPost]
         public ActionResult SignUp(Models.User user)
         {
+          
             Models.User check = db.Users.SingleOrDefault(x => x.Email == user.Email);
             if (check != null)
             {
@@ -36,6 +46,7 @@ namespace CosmeticsShop.Controllers
             Models.User userAdded = new Models.User();
             try
             {
+                user.Password = HashPassword(user.Password);
                 user.Captcha = new Random().Next(100000, 999999).ToString();
                 user.IsConfirm = false;
                 user.UserTypeID = 2;
@@ -43,9 +54,9 @@ namespace CosmeticsShop.Controllers
                 userAdded = db.Users.Add(user);
                 db.SaveChanges();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                ViewBag.Message = "Đăng ký thất bại";
+                ViewBag.Message = "Đăng ký thất bại: " + ex.Message;
                 return View();
             }
             return RedirectToAction("ConfirmEmail", "User", new { ID = userAdded.ID });
@@ -57,7 +68,8 @@ namespace CosmeticsShop.Controllers
         [HttpPost]
         public ActionResult SignIn(string Email, string Password)
         {
-            Models.User check = db.Users.SingleOrDefault(x => x.Email == Email && x.Password == Password);
+            string hashedPassword = HashPassword(Password);
+            Models.User check = db.Users.SingleOrDefault(x => x.Email == Email && x.Password == hashedPassword);
             if (check != null)
             {
                 Session["User"] = check;

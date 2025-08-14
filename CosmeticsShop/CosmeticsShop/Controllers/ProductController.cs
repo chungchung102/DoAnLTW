@@ -35,7 +35,12 @@ namespace CosmeticsShop.Controllers
         public ActionResult Details(int ID)
         {
             Product product = db.Products.Find(ID);
+
+            List<string> colors = new List<string> { "Đỏ", "Xanh", "Vàng", "Đen", "Trắng", "Hồng" };
+            ViewBag.ProductColors = colors;
             return View(product);
         }
+
+
     }
 }

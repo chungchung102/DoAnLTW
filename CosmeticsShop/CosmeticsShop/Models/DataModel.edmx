@@ -135,7 +135,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__Orders__UserID__46E78A0C">
+        <Association Name="FK__Orders__UserID__59063A47">
           <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
           <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
           <ReferentialConstraint>
@@ -171,7 +171,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__Users__UserTypeI__49C3F6B7">
+        <Association Name="FK__Users__UserTypeI__5BE2A6F2">
           <End Role="UserType" Type="Self.UserType" Multiplicity="0..1" />
           <End Role="Users" Type="Self.Users" Multiplicity="*" />
           <ReferentialConstraint>
@@ -207,7 +207,7 @@
             <End Role="Products" EntitySet="Products" />
             <End Role="OrderDetails" EntitySet="OrderDetails" />
           </AssociationSet>
-          <AssociationSet Name="FK__Orders__UserID__46E78A0C" Association="Self.FK__Orders__UserID__46E78A0C">
+          <AssociationSet Name="FK__Orders__UserID__59063A47" Association="Self.FK__Orders__UserID__59063A47">
             <End Role="Users" EntitySet="Users" />
             <End Role="Orders" EntitySet="Orders" />
           </AssociationSet>
@@ -219,7 +219,7 @@
             <End Role="Users" EntitySet="Users" />
             <End Role="Products" EntitySet="Products" />
           </AssociationSet>
-          <AssociationSet Name="FK__Users__UserTypeI__49C3F6B7" Association="Self.FK__Users__UserTypeI__49C3F6B7">
+          <AssociationSet Name="FK__Users__UserTypeI__5BE2A6F2" Association="Self.FK__Users__UserTypeI__5BE2A6F2">
             <End Role="UserType" EntitySet="UserType" />
             <End Role="Users" EntitySet="Users" />
           </AssociationSet>

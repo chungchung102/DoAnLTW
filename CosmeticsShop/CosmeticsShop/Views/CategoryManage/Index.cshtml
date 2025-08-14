@@ -1,54 +1,84 @@
 ﻿@model List<CosmeticsShop.Models.Category>
 @{
-    ViewBag.Title = "Danh sách danh mục";
+    ViewBag.Title = "Quản lý danh mục";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
-<!-- Content Header (Page header) -->
+
+<!-- Content Header -->
 <div class="content-header">
     <div class="container-fluid">
+
+        <!-- Tiêu đề -->
+        <div class="row mb-2 align-items-center">
+            <div class="col-12">
+                <h3 class="fw-bold text-primary mb-0">
+                    <i class="fas fa-layer-group"></i> Quản lý danh mục
+                </h3>
+            </div>
+        </div>
+
+        <!-- Thông báo -->
         <div class="row mb-2">
-            <div class="col-sm-6">
-                <h1 class="m-0">Quản lý danh mục</h1>
-            </div><!-- /.col -->
-        </div><!-- /.row -->
-    </div><!-- /.container-fluid -->
+            <div class="col-12">
+                @if (TempData["Message"] != null)
+                {
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        <i class="fas fa-check-circle"></i> @TempData["Message"]
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                }
+                @if (TempData["Error"] != null)
+                {
+                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                        <i class="fas fa-exclamation-triangle"></i> @TempData["Error"]
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                }
+            </div>
+        </div>
+
+        <!-- Thanh tìm kiếm -->
+        <div class="row mb-2">
+            <div class="col-md-4">
+                <form action="/CategoryManage/Index" method="get" class="d-flex">
+                    <div class="input-group input-group-sm w-100">
+                        <input type="text"
+                               name="keyword"
+                               class="form-control"
+                               placeholder="Tìm kiếm..."
+                               value="@Request.QueryString["keyword"]">
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Nút thêm mới -->
+        <div class="row mb-3">
+            <div class="col-12">
+                <a href="/CategoryManage/Add" class="btn btn-success btn-sm shadow-sm">
+                    <i class="fas fa-plus-circle"></i> Thêm mới
+                </a>
+            </div>
+        </div>
+
+    </div>
 </div>
-<!-- /.content-header -->
+
+<!-- Main Content -->
 <div class="row">
     <div class="col-12">
-        <div class="card">
-            <div class="card-header">
-                @if (string.IsNullOrEmpty(Request.Params["keyword"]))
-                {
-                    <h3 class="card-title">Danh sách danh mục</h3>
-                }
-                else
-                {
-                    <h3 class="card-title">Danh sách danh mục với từ khóa "@Request.Params["keyword"]"</h3>
-                }
-                <div class="card-tools">
-                    <form action="/CategoryManage/" method="get">
-                        <div class="input-group input-group-sm" style="width: 150px;">
-                            <input type="text" name="keyword" class="form-control float-right" placeholder="Tìm kiếm..." required>
-                            <div class="input-group-append">
-                                <button type="submit" class="btn btn-default">
-                                    <i class="fas fa-search"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <a href="/CategoryManage/Add" class="btn btn-outline-success col-2">Thêm mới</a>
-            <!-- /.card-header -->
-            <div class="card-body table-responsive p-0">
-                <table class="table table-hover text-nowrap">
-                    <thead>
+        <div class="card shadow-sm border-0">
+            <div class="card-body p-0">
+                <table class="table table-hover table-bordered align-middle text-center mb-0" style="border: 1px solid #dee2e6;">
+                    <thead class="table-primary">
                         <tr>
-                            <th>ID</th>
-                            <th>Tên</th>
-                            <th>Trạng thái</th>
-                            <th>Thao tác</th>
+                            <th style="width: 120px;">Mã danh mục</th>
+                            <th class="text-start">Tên danh mục</th>
+                            <th style="width: 120px;">Trạng thái</th>
+                            <th style="width: 250px;">Thao tác</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -58,25 +88,49 @@
                             {
                                 <tr>
                                     <td>@item.ID</td>
-                                    <td>@item.Name</td>
-                                    @if (item.IsActive.Value)
-                                    {
-                                        <td><span class="badge bg-success">Kích hoạt</span></td>
-                                    }
-                                    else
-                                    {
-                                        <td><span class="badge bg-danger">Khóa</span></td>
-                                    }
+                                    <td class="text-start">@item.Name</td>
                                     <td>
-                                        @if (item.IsActive.Value)
+                                        @if (item.IsActive ?? false)
                                         {
-                                            <button class="btn btn-outline-danger" onclick="location.href='/CategoryManage/ToggleActive/@item.ID'">Khóa</button>
+                                            <span class="badge bg-success">
+                                                <i class="fas fa-check-circle"></i> Kích hoạt
+                                            </span>
                                         }
                                         else
                                         {
-                                            <button class="btn btn-outline-success" onclick="location.href='/CategoryManage/ToggleActive/@item.ID'">Mở</button>
+                                            <span class="badge bg-danger">
+                                                <i class="fas fa-times-circle"></i> Khóa
+                                            </span>
                                         }
-                                        <button class="btn btn-primary" onclick="location.href='/CategoryManage/Details/@item.ID'">Chi tiết/Sửa</button>
+                                    </td>
+                                    <td>
+                                        @if (item.IsActive ?? false)
+                                        {
+                                            <a href="/CategoryManage/ToggleActive/@item.ID"
+                                               class="btn btn-outline-danger btn-sm me-1"
+                                               title="Khóa">
+                                                <i class="fas fa-lock"></i>
+                                            </a>
+                                        }
+                                        else
+                                        {
+                                            <a href="/CategoryManage/ToggleActive/@item.ID"
+                                               class="btn btn-outline-success btn-sm me-1"
+                                               title="Mở">
+                                                <i class="fas fa-unlock"></i>
+                                            </a>
+                                        }
+                                        <a href="/CategoryManage/Details/@item.ID"
+                                           class="btn btn-primary btn-sm me-1"
+                                           title="Chi tiết / Sửa">
+                                            <i class="fas fa-edit"></i> Sửa
+                                        </a>
+                                        <a href="/CategoryManage/Delete/@item.ID"
+                                           class="btn btn-danger btn-sm"
+                                           title="Xóa"
+                                           onclick="return confirm('Bạn có chắc muốn xóa danh mục này không?');">
+                                            <i class="fas fa-trash"></i> Xóa
+                                        </a>
                                     </td>
                                 </tr>
                             }
@@ -84,16 +138,14 @@
                         else
                         {
                             <tr>
-                                <td>
-                                    Không tìm thấy sản phẩm...
+                                <td colspan="4" class="text-muted py-4">
+                                    <i class="fas fa-info-circle"></i> Không tìm thấy danh mục...
                                 </td>
                             </tr>
                         }
                     </tbody>
                 </table>
             </div>
-            <!-- /.card-body -->
         </div>
-        <!-- /.card -->
     </div>
 </div>

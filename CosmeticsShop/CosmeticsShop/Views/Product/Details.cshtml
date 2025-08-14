@@ -5,15 +5,19 @@
 
     List<CosmeticsShop.Models.Category> categories = ViewBag.ListCategory as List<CosmeticsShop.Models.Category>;
 }
+
 <script>
     $(document).ready(function () {
-        $('.item_add').click(function () {
+        $('.item_add').click(function (event) {
             event.preventDefault();
             var ID = $(this).data("id");
+            var selectedColor = $('#productColor').val(); // lấy màu chọn
+
             $.ajax({
                 url: '/Cart/AddItem',
                 data: {
-                    ProductID: ID
+                    ProductID: ID,
+                    Color: selectedColor  // gửi màu lên server
                 },
                 type: 'POST',
                 dataType: 'json',
@@ -37,14 +41,17 @@
         })
     });
 </script>
+
 <div class="breadcrumbs">
     <div class="container">
-        <ol class="breadcrumb breadcrumb1 animated wow slideInLeft animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: slideInLeft;">
+        <ol class="breadcrumb breadcrumb1 animated wow slideInLeft animated" data-wow-delay=".5s"
+            style="visibility: visible; animation-delay: 0.5s; animation-name: slideInLeft;">
             <li><a href="/"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Trang chủ</a></li>
             <li class="active">@Model.Name</li>
         </ol>
     </div>
 </div>
+
 <div class="single">
     <div class="container">
         <div class="col-md-9">
@@ -52,18 +59,27 @@
                 <div class="flexslider">
                     <ul class="slides">
                         <li data-thumb="@Url.Content("~/Content/images/" + Model.Image1)">
-                            <div class="thumb-image"> <img src="@Url.Content("~/Content/images/" + Model.Image1)" data-imagezoom="true" class="img-responsive"> </div>
+                            <div class="thumb-image">
+                                <img src="@Url.Content("~/Content/images/" + Model.Image1)" data-imagezoom="true"
+                                     class="img-responsive" />
+                            </div>
                         </li>
                         @if (Model.Image2 != null)
                         {
                             <li data-thumb="@Url.Content("~/Content/images/" + Model.Image2)">
-                                <div class="thumb-image"> <img src="@Url.Content("~/Content/images/" + Model.Image2)" data-imagezoom="true" class="img-responsive"> </div>
+                                <div class="thumb-image">
+                                    <img src="@Url.Content("~/Content/images/" + Model.Image2)" data-imagezoom="true"
+                                         class="img-responsive" />
+                                </div>
                             </li>
                         }
                         @if (Model.Image3 != null)
                         {
                             <li data-thumb="@Url.Content("~/Content/images/" + Model.Image3)">
-                                <div class="thumb-image"> <img src="@Url.Content("~/Content/images/" + Model.Image3)" data-imagezoom="true" class="img-responsive"> </div>
+                                <div class="thumb-image">
+                                    <img src="@Url.Content("~/Content/images/" + Model.Image3)" data-imagezoom="true"
+                                         class="img-responsive" />
+                                </div>
                             </li>
                         }
                     </ul>
@@ -72,26 +88,31 @@
             <div class="col-md-7 single-top-in">
                 <div class="single-para simpleCart_shelfItem">
                     <h2>@Model.Name</h2>
-                    <p> @Model.Description</p>
+                    <p>@Model.Description</p>
+
+                    <!-- Phần chọn màu -->
+                    <div class="product-color-selection" style="margin: 15px 0;">
+                        <label for="productColor" style="font-weight: bold;">Chọn màu:</label>
+                        <select id="productColor" name="productColor" class="form-control"
+                                style="width: 150px; display: inline-block; margin-left: 10px;">
+                            @{
+                                var colors = ViewBag.ProductColors as List<string> ?? new List<string> { "Đỏ", "Xanh", "Vàng", "Đen" };
+                                foreach (var color in colors)
+                                {
+                                    <option value="@color">@color</option>
+                                }
+                            }
+                        </select>
+                    </div>
+
                     <div class="star-on">
-                        @*<ul>
-                                <li><a href="#"><i class="glyphicon glyphicon-star"> </i></a></li>
-                                <li><a href="#"><i class="glyphicon glyphicon-star"> </i></a></li>
-                                <li><a href="#"><i class="glyphicon glyphicon-star"> </i></a></li>
-                                <li><a href="#"><i class="glyphicon glyphicon-star"> </i></a></li>
-                                <li><a href="#"><i class="glyphicon glyphicon-star"> </i></a></li>
-                            </ul>
-                            <div class="review">
-                                <a href="#"> 3 reviews </a>/
-                                <a href="#">  Write a review</a>
-                            </div>*@
-                        <div class="clearfix"> </div>
+                        <div class="clearfix"></div>
                     </div>
                     <label class="add-to item_price">@Model.Price.Value.ToString("#,##")₫</label>
                     <a href="#" class="cart item_add" data-id="@Model.ID">Chọn mua</a>
                 </div>
             </div>
-            <div class="clearfix"> </div>
+            <div class="clearfix"></div>
         </div>
     </div>
 </div>

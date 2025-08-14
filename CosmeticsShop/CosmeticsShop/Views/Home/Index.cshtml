@@ -1,96 +1,64 @@
-﻿
-@{
+﻿@{
     ViewBag.Title = "Trang chủ";
     Layout = "~/Views/Shared/_HomeLayout.cshtml";
 
     List<CosmeticsShop.Models.Product> products = ViewBag.ListProduct as List<CosmeticsShop.Models.Product>;
 }
+<style>
+    .table th, .table td {
+        color: #000 !important;
+        vertical-align: middle !important;
+    }
+</style>
 <script>
-    $(document).ready(function () {
-        $(".item_add").on('click', function () {
-            event.preventDefault();
-            var ID = $(this).data("id");
-            $.ajax({
-                url: '/Cart/AddItem',
-                data: {
-                    ProductID: ID
-                },
-                type: 'POST',
-                dataType: 'json',
-                success: function (response) {
-                    if (response.status == true) {
-                        $.notify("Thêm vào giỏ hàng thành công!", "success");
-
-                        $.ajax({
-                            url: '/Cart/GetTotalCart',
-                            type: 'GET',
-                            dataType: 'json',
-                            success: function (response) {
-                                $(".simpleCart_total").html(response.TotalPrice + "₫ (" + response.TotalQuantity + ")")
-                            },
-                        });
-                    } else {
-                        $.notify("Số lượng không đủ!", "error");
-                    }
-                },
-            });
-        })
-    });
+    // Xóa đoạn script click thêm giỏ hàng vì nút không còn chức năng add nữa
 </script>
-<!--banner-->
-<div class="banner">
-    <div class="matter-banner">
-        <div class="slider">
-            <div class="callbacks_container">
-                <ul class="rslides" id="slider">
-                    <li>
-                        <img src="~/Content/images/banner.jpg" alt="">
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="clearfix"> </div>
+
+<!-- Banner -->
+<div class="banner" style="margin-bottom: 30px;">
+    <img src="~/Content/images/banner.jpg" alt="Banner" class="img-responsive" style="width: 100%; height: 450px; object-fit: cover;">
 </div>
-<!--//banner-->
-<div class="products">
-    <div class="container">
-        <h2>Sản phẩm bán chạy</h2>
-        <div class="col-md-9">
-            @if (products.Count > 0)
+
+<!-- Sản phẩm bán chạy -->
+<div class="container">
+    <h2 class="text-center" style="margin-bottom: 40px; color: #6f4e7c; font-weight: 700;">Sản phẩm bán chạy</h2>
+    <div class="row">
+        @if (products != null && products.Count > 0)
+        {
+            var topProducts = products.OrderByDescending(p => p.PurchasedCount).Take(8).ToList();
+            foreach (var product in topProducts)
             {
-                for (int i = 0; i < products.Count; i += 3)
-                {
-                    <div class="content-top1">
-                        @for (int j = i; j < i + 3; j++)
-                        {
-                            <div class="col-md-4 col-md4">
-                                <div class="col-md1 simpleCart_shelfItem">
-                                    @if (j < products.Count)
-                                    {
-                                        <a href="/Product/Details/@products[j].ID">
-                                            <img class="img-responsive" src="~/Content/images/@products[j].Image1" alt="" style="height:250px;width:200px" />
-                                        </a>
-                                        <h3><a href="/Product/Details/@products[j].ID">@products[j].Name</a></h3>
-                                        <div class="price">
-                                            <h5 class="item_price">@products[j].Price.Value.ToString("#,##")₫</h5>
-                                            <p class="item_price">Đã bán: @products[j].PurchasedCount (Còn lại @products[j].Quantity)</p>
-                                            <a href="#" class="item_add" data-id="@products[j].ID">Chọn mua</a>
-                                            <div class="clearfix"></div>
-                                        </div>
-                                    }
-                                    
-                                </div>
-                            </div>
-                        }
-                        <div class="clearfix"></div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail" style="border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.15); height: 100%; display: flex; flex-direction: column;">
+                        <a href="/Product/Details/@product.ID">
+                            <img src="~/Content/images/@product.Image1" alt="@product.Name" style="height: 230px; object-fit: cover; border-top-left-radius: 10px; border-top-right-radius: 10px;" class="img-responsive" />
+                        </a>
+                        <div class="caption" style="flex-grow: 1;">
+                            <h4 style="color: #6f4e7c; font-weight: 600; min-height: 48px;">
+                                <a href="/Product/Details/@product.ID" style="color: #6f4e7c; text-decoration: none;">@product.Name</a>
+                            </h4>
+                            <p style="color: #d98fb3; font-weight: 700; font-size: 18px; margin-bottom: 10px;">
+                                @product.Price.Value.ToString("#,##0")₫
+                            </p>
+                            <p style="font-size: 13px; color: #777;">
+                                Đã bán: @product.PurchasedCount<br />
+                                Còn lại: @product.Quantity
+                            </p>
+                        </div>
+                        <div style="padding: 0 15px 15px 15px;">
+                            <a href="/Product/Details/@product.ID" class="btn btn-block btn-primary" style="background-color: #a46f8e; border-color: #a46f8e; text-align:center;">
+                                Xem chi tiết
+                            </a>
+                        </div>
                     </div>
-                }
+                </div>
             }
-            else
-            {
-                <h3>Không có sản phẩm nào...</h3>
-            }
-        </div>
+        }
+        else
+        {
+            <div class="col-xs-12">
+                <h3 class="text-center text-muted">Không có sản phẩm nào...</h3>
+            </div>
+        }
     </div>
 </div>

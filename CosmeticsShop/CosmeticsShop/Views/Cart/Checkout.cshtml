@@ -1,143 +1,215 @@
-﻿
-@{
+﻿@{
     ViewBag.Title = "Checkout";
     Layout = "~/Views/Shared/_HomeLayout.cshtml";
 
     List<CosmeticsShop.Models.ItemCart> itemCarts = Session["Cart"] as List<CosmeticsShop.Models.ItemCart>;
 }
-<script>
-    $(document).ready(function () {
-        $('.qty').on('keydown', function (e) {
-            e.preventDefault();
-        });
-        $('.qty').change(function () {
-            var ID = $(this).data("id");
-            var Quantity = $(this).val();
-            $.ajax({
-                url: '/Cart/UpdateQuantity',
-                data: {
-                    ProductID: ID,
-                    Quantity: Quantity
-                },
-                type: 'POST',
-                dataType: 'json',
-                success: function (response) {
-                    if (response.update == true) {
-                        $.notify("Cập nhật thành công!", "success");
 
-                        $.ajax({
-                            url: '/Cart/GetSubTotal',
-                            data: {
-                                ProductID: ID
-                            },
-                            type: 'GET',
-                            dataType: 'json',
-                            success: function (response) {
-                                $("#" + ID).html(response.SubTotal + "₫")
-                            },
-                        });
+<style>
+    /* Ẩn mũi tên tăng giảm mặc định của input number trên Chrome, Safari, Edge, Opera */
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    /* Ẩn mũi tên tăng giảm mặc định trên Firefox */
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+    /* Chữ đen rõ ràng */
+    .table th, .table td {
+        color: #000 !important;
+        vertical-align: middle !important;
+    }
+</style>
 
-                        $.ajax({
-                            url: '/Cart/GetTotal',
-                            data: {
-                                ProductID: ID
-                            },
-                            type: 'GET',
-                            dataType: 'json',
-                            success: function (response) {
-                                $(".total-cart").html("Tổng: " + response.Total + "₫")
-                            },
-                        });
-
-                        $.ajax({
-                            url: '/Cart/GetTotalCart',
-                            type: 'GET',
-                            dataType: 'json',
-                            success: function (response) {
-                                $(".simpleCart_total").html(response.TotalPrice + "₫ (" + response.TotalQuantity + ")")
-                            },
-                        });
-                    } else if (response.remove == true) {
-                        $.notify("Đã xóa sản phẩm trong giỏ hàng!", "success");
-                        setTimeout(function () { location.reload(); }, 1000);
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            function updateQuantity(ProductID, Color, Quantity) {
+                $.ajax({
+                    url: '/Cart/UpdateQuantity',
+                    type: 'POST',
+                    dataType: 'json',
+                    data: {
+                        ProductID: ProductID,
+                        Quantity: Quantity,
+                        Color: Color
+                    },
+                    success: function (response) {
+                        if (response.update === true || response.remove === true) {
+                            $.notify(response.remove ? "Đã xóa sản phẩm trong giỏ hàng!" : "Cập nhật thành công!", "success");
+                            setTimeout(function () { location.reload(); }, 800);
+                        } else if (response.status === false) {
+                            $.notify("Số lượng không đủ!", "error");
+                            setTimeout(function () { location.reload(); }, 1500);
+                        } else {
+                            $.notify("Lỗi!", "error");
+                            setTimeout(function () { location.reload(); }, 1000);
+                        }
+                    },
+                    error: function () {
+                        $.notify("Lỗi server!", "error");
                     }
-                    else if (response.status == false) {
-                        $.notify("Số lượng không đủ!", "error");
-                        setTimeout(function () {
-                                window.location.reload();
-                        }, 1500);
-                    } else {
-                        $.notify("Lỗi!", "error");
-                        setTimeout(function () {
-                            window.location.reload();
-                        }, 1000);
-                    }
-                },
+                });
+            }
+
+            $('.btn-increase').click(function () {
+                var input = $(this).closest('.input-group').find('input.qty');
+                var currentVal = parseInt(input.val());
+                var maxVal = 9999;
+                if (currentVal < maxVal) {
+                    input.val(currentVal + 1).trigger('change');
+                }
             });
-        })
-    });
-</script>
+
+            $('.btn-decrease').click(function () {
+                var input = $(this).closest('.input-group').find('input.qty');
+                var currentVal = parseInt(input.val());
+                if (currentVal > 0) {
+                    input.val(currentVal - 1).trigger('change');
+                }
+            });
+
+            $('.qty').on('keydown', function (e) {
+                e.preventDefault();
+            });
+
+            $('.qty').change(function () {
+                var ID = $(this).data("id");
+                var Color = $(this).data("color") || "";
+                var Quantity = $(this).val();
+                updateQuantity(ID, Color, Quantity);
+            });
+
+            $(document).on('click', '.btn-remove', function (e) {
+                e.preventDefault();
+                var ID = $(this).data("id");
+                var Color = $(this).data("color") || "";
+
+                if (confirm("Bạn có chắc muốn xóa sản phẩm này khỏi giỏ hàng?")) {
+                    updateQuantity(ID, Color, 0);
+                }
+            });
+        });
+    </script>
+}
+
 <div class="breadcrumbs">
     <div class="container">
-        <ol class="breadcrumb breadcrumb1 animated wow slideInLeft animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: slideInLeft;">
-            <li><a href="/"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Trang chủ</a></li>
+        <ol class="breadcrumb breadcrumb1 animated wow slideInLeft" data-wow-delay=".5s">
+            <li><a href="/"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Trang chủ</a></li>
             <li class="active">Giỏ hàng</li>
         </ol>
     </div>
 </div>
-<!---->
+
 <div class="container">
     <div class="check-out">
-        <h2>Giỏ hàng</h2>
+        <h2 class="text-center text-primary" style="margin-bottom:30px;">Giỏ hàng của bạn</h2>
+
+        @if (TempData["CartMessage"] != null)
+        {
+            <div class="alert alert-danger text-center" style="font-size:1.1em; margin-bottom: 30px;">
+                @TempData["CartMessage"]
+            </div>
+        }
+
         @if (itemCarts != null && itemCarts.Count > 0)
         {
-            <table>
-                <tr>
-                    <th>Sản phẩm</th>
-                    <th>Số lượng</th>
-                    <th>Đơn giá</th>
-                    <th>Thành tiền</th>
-                </tr>
-                @foreach (var item in itemCarts)
-                {
-                    <tr>
-                        <td class="ring-in">
-                            <a href="/Product/Details/@item.ProductID" class="at-in"><img src="~/Content/images/@item.ProductImage" class="img-responsive" alt=""></a>
-                            <div class="sed">
-                                <h5>@item.ProductName</h5>
-                            </div>
-                            <div class="clearfix"> </div>
-                        </td>
-                        <td class="check"><input type="number" class="qty" data-id="@item.ProductID" value="@item.Quantity" style="width:100px" min="0"></td>
-                        <td>@item.ProductPrice.ToString("#,##")₫</td>
-                        <td id="@item.ProductID">@((item.ProductPrice * item.Quantity).ToString("#,##"))₫</td>
-                    </tr>
-                }
-                <tr>
-                    <th class="total-cart">Tổng: @itemCarts.Sum(x => x.Quantity * x.ProductPrice).ToString("#,##")₫</th>
-                </tr>
-            </table>
-            if (Session["User"] == null)
-            {
-                <a href="/Home/SignIn" class=" to-buy">ĐĂNG NHẬP ĐỂ ĐẶT HÀNG</a>
-            }
-            else
-            {
-                <p>Phương thức thanh toán:</p>
-                <form action="/Cart/AddOrder" method="post">
-                    <select name="payment">
-                        <option value="cod">Tiền mặt (COD)</option>
-                        <option value="momo">Thanh toán với Momo</option>
-                    </select> <br />
-                    <button class="to-buy btn btn-warning">TIẾN HÀNH ĐẶT HÀNG</button>
-                </form>
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover text-center">
+                    <thead>
+                        <tr class="info">
+                            <th>Sản phẩm</th>
+                            <th style="width:180px;">Số lượng</th>
+                            <th style="width:140px;">Đơn giá</th>
+                            <th style="width:140px;">Thành tiền</th>
+                            <th style="width:60px;">Xóa</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in itemCarts)
+                        {
+                            var safeColor = !string.IsNullOrEmpty(item.Color) ? item.Color.Replace(" ", "") : "noColor";
+                            <tr>
+                                <td class="text-left" style="vertical-align:middle;">
+                                    <a href="/Product/Details/@item.ProductID" class="pull-left" style="margin-right:15px;">
+                                        <img src="~/Content/images/@item.ProductImage" class="img-thumbnail" alt="@item.ProductName" style="max-width:90px;" />
+                                    </a>
+                                    <div>
+                                        <h5 style="margin-top:10px;">@item.ProductName</h5>
+                                        @if (!string.IsNullOrEmpty(item.Color))
+                                        {
+                                            <small>Màu: @item.Color</small>
+                                        }
+                                    </div>
+                                </td>
+                                <td style="vertical-align:middle;">
+                                    <div class="input-group" style="width:120px; margin: 0 auto;">
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-default btn-decrease" type="button" title="Giảm">
+                                                <span class="glyphicon glyphicon-minus"></span>
+                                            </button>
+                                        </span>
+                                        <input type="number" class="qty form-control text-center" data-id="@item.ProductID" data-color="@item.Color" value="@item.Quantity" min="0" style="padding:6px 10px;" />
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-default btn-increase" type="button" title="Tăng">
+                                                <span class="glyphicon glyphicon-plus"></span>
+                                            </button>
+                                        </span>
+                                    </div>
+                                </td>
+                                <td class="text-right" style="vertical-align:middle; font-weight: bold;">
+                                    @item.ProductPrice.ToString("#,##")₫
+                                </td>
+                                <td id="@item.ProductID-@safeColor" class="text-right" style="vertical-align:middle; font-weight: bold; color: #d9534f;">
+                                    @((item.ProductPrice * item.Quantity).ToString("#,##"))₫
+                                </td>
+                                <td style="vertical-align:middle;">
+                                    <button type="button" data-id="@item.ProductID" data-color="@item.Color" class="btn btn-danger btn-xs btn-remove" title="Xóa sản phẩm">
+                                        <span class="glyphicon glyphicon-remove"></span>
+                                    </button>
+                                </td>
+                            </tr>
+                        }
+                        <tr>
+                            <th colspan="3" class="text-right">Tổng cộng:</th>
+                            <th class="total-cart text-right text-danger" style="font-size:1.3em;">
+                                @itemCarts.Sum(x => x.Quantity * x.ProductPrice).ToString("#,##")₫
+                            </th>
+                            <th></th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
-            }
+            <div class="text-center" style="margin-top: 30px;">
+                @if (Session["User"] == null)
+                {
+                    <a href="/Home/SignIn" class="btn btn-primary btn-lg">ĐĂNG NHẬP ĐỂ ĐẶT HÀNG</a>
+                }
+                else
+                {
+                    <form action="/Cart/AddOrder" method="post" class="form-inline text-center"
+                          onsubmit="return confirm('Bạn có chắc chắn muốn đặt hàng các sản phẩm này?');">
+                        <div class="form-group">
+                            <label for="payment" class="control-label" style="margin-right:10px;">Phương thức thanh toán:</label>
+                            <select name="payment" id="payment" class="form-control input-sm" style="width: 180px; margin-right: 20px;">
+                                <option value="cod">Tiền mặt (COD)</option>
+                                <option value="momo">Thanh toán với Momo</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-warning btn-lg">TIẾN HÀNH ĐẶT HÀNG</button>
+                    </form>
+                }
+            </div>
         }
         else
         {
-            <h3> Giỏ hàng hiện đang rỗng</h3>
-            <div class="clearfix">
+            <div class="alert alert-info text-center" style="font-size:1.3em; margin-top: 40px;">
+                <strong>Giỏ hàng hiện đang trống!</strong><br />
+                <a href="/" class="btn btn-success btn-lg" style="margin-top: 15px;">Tiếp tục mua sắm</a>
             </div>
         }
     </div>

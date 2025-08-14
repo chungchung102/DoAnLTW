@@ -32,27 +32,32 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="header-top">
             <div class="container">
                 <div class="col-sm-4 logo animated wow fadeInLeft" data-wow-delay=".5s">
-                    <h1><a href="index.html">Cosmetics <span>Shop</span></a></h1>
+                    <h1>
+                        <a href="@Url.Action("Index", "Home")" class="text-primary" style="font-weight: bold; text-decoration:none;">
+                            Cosmetics <span class="text-danger">Shop</span>
+                        </a>
+                    </h1>
                 </div>
                 <div class="col-sm-4 world animated wow fadeInRight" data-wow-delay=".5s">
-                    <div class="cart box_1">
-                        <a href="/Cart/Checkout">
-                            <h3>
-                                <div class="total">
-                                    @{
-                                        List<CosmeticsShop.Models.ItemCart> itemCarts = Session["Cart"] as List<CosmeticsShop.Models.ItemCart>;
-                                        if (itemCarts != null && itemCarts.Count > 0)
-                                        {
-                                            <span class="simpleCart_total">@itemCarts.Sum(x => x.ProductPrice * x.Quantity).ToString("#,##")₫ (@itemCarts.Sum(x => x.Quantity))</span>
-                                        }
-                                        else
-                                        {
-                                            <span class="simpleCart_total">0₫ (0)</span>
-                                        }
+                    <!-- Giỏ hàng -->
+                    <div class="cart box_1 position-relative" style="display: flex; align-items: center; margin-right: 20px;">
+                        <a href="/Cart/Checkout" class="text-dark" style="font-weight: 600; text-decoration:none; display: flex; align-items: center;">
+                            <div class="total" style="margin-right: 10px; font-size: 18px;">
+                                @{
+                                    List<CosmeticsShop.Models.ItemCart> itemCarts = Session["Cart"] as List<CosmeticsShop.Models.ItemCart>;
+                                    if (itemCarts != null && itemCarts.Count > 0)
+                                    {
+                                        <span class="simpleCart_total">
+                                            @itemCarts.Sum(x => x.ProductPrice * x.Quantity).ToString("#,##")₫ (@itemCarts.Sum(x => x.Quantity))
+                                        </span>
                                     }
-                                </div>
-                                <img src="~/Content/images/cart.png" alt="" />
-                            </h3>
+                                    else
+                                    {
+                                        <span class="simpleCart_total">0₫ (0)</span>
+                                    }
+                                }
+                            </div>
+                            <img src="~/Content/images/cart.png" alt="Giỏ hàng" style="width:32px; height:32px;" />
                         </a>
                     </div>
                 </div>
@@ -90,7 +95,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <a class="navbar-brand" href="#"></a>
                         </div>
                         <!-- Collect the nav links, forms, and other content for toggling -->
-                        <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+                        <!--<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
                             <ul class="nav navbar-nav nav_1">
                                 <li><a href="/">Trang chủ</a></li>
                                 <li><a href="/Product/">Sản phẩm</a></li>
@@ -104,7 +109,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                     <li><a href="/Home/SignIn">Đăng nhập</a></li>
                                 }
                             </ul>
-                        </div><!-- /.navbar-collapse -->
+                        </div>--><!-- /.navbar-collapse -->
 
                     </nav>
                 </div>
@@ -147,14 +152,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </div>
     @RenderBody()
 
-    <div class="row">
+    <!--<div class="row">
         <div class="chatbox chatbox22 chatbox--tray">
             <div class="chatbox__title">
-                <h5><a href="javascript:void()">Chat với chúng tôi</a></h5>
+                <h5><a href="javascript:void()">Chat với chúng tôi</a></h5>-->
                 <!--<button class="chatbox__title__tray">
                     <span></span>
                 </button>-->
-                <button class="chatbox__title__close">
+                <!--<button class="chatbox__title__close">
                     <span>
                         <svg viewBox="0 0 12 12" width="12px" height="12px">
                             <line stroke="#FFFFFF" x1="11.75" y1="0.25" x2="0.25" y2="11.75"></line>
@@ -187,7 +192,54 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </div>
             }
         </div>
-    </div>
+    </div>-->
+
+    <footer class="footer" style="
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
+    padding: 20px 0;
+    margin-top: 40px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+">
+        <div class="container">
+            <div class="row">
+                <!-- Follow Us -->
+                <div class="col-md-6" style="margin-bottom: 15px;">
+                    <h4 class="footer-title" style="font-weight: bold; margin-bottom: 10px;">Follow Us On</h4>
+                    <ul class="list-inline social-links" style="margin: 0; padding: 0;">
+                        <li style="margin-right: 10px;">
+                            <a href="https://www.facebook.com/DhCongThuongHCM" target="_blank" class="facebook-link" style="color: #3b5998; text-decoration: none;">
+                                <span class="glyphicon glyphicon-thumbs-up"></span> Facebook
+                            </a>
+                        </li>
+                        <li style="margin-right: 10px;">
+                            <a href="https://google.com" target="_blank" class="google-link" style="color: #dd4b39; text-decoration: none;">
+                                <span class="glyphicon glyphicon-envelope"></span> Google
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/in/yourprofile" target="_blank" class="linkedin-link" style="color: #0077b5; text-decoration: none;">
+                                <span class="glyphicon glyphicon-link"></span> LinkedIn
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div class="col-md-6 text-right">
+                    <h4 class="footer-title" style="font-weight: bold; margin-bottom: 10px;">Liên hệ</h4>
+                    <p class="footer-contact" style="margin: 0; line-height: 1.8;">
+                        Địa chỉ: 140 Lê Trọng Tấn, Phường Tây Thạnh, TP. HCM<br>
+                        Điện thoại: <a href="tel:+840912345678" class="footer-link" style="color: #337ab7; text-decoration: none;">0912 345 678</a><br>
+                        Email: <a href="mailto:contact@huit.edu.vn" class="footer-link" style="color: #337ab7; text-decoration: none;">contact@huit.edu.vn</a><br>
+                        Thời gian làm việc: Thứ 2 - Thứ 7, 8:00 - 18:00
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script type="text/javascript">
         $(document).ready(function () {
             $(function () {

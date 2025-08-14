@@ -86,17 +86,16 @@ namespace CosmeticsShop.Controllers
         }
         public ActionResult OrderDetails(int ID)
         {
-            if (CheckRole("Client"))
-            {
-
-            }
-            else
-            {
+            if (!CheckRole("Client"))
                 return RedirectToAction("Index", "Home");
-            }
-            List<OrderDetail> orderDetails = db.OrderDetails.Where(x => x.OrderID.Value == ID).ToList();
+
+            ViewBag.OrderID = ID; // truyền sang view để hiển thị tiêu đề
+            List<OrderDetail> orderDetails = db.OrderDetails
+                                              .Where(x => x.OrderID == ID)
+                                              .ToList();
             return View(orderDetails);
         }
+
         public ActionResult Complete(int ID)
         {
             Order order = db.Orders.Find(ID);

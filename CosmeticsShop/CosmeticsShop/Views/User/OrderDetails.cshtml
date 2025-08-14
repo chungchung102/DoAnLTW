@@ -1,53 +1,116 @@
 ﻿@model List<CosmeticsShop.Models.OrderDetail>
 @{
-    ViewBag.Title = "Chi tiết";
+    ViewBag.Title = "Chi tiết đơn hàng";
     Layout = "~/Views/Shared/_HomeLayout.cshtml";
 }
+
+<style>
+    .table th, .table td {
+        color: #000 !important;
+        vertical-align: middle !important;
+        text-align: center; /* Căn giữa tất cả cột */
+    }
+
+    .total-row {
+        background-color: #ffeeba;
+        font-size: 18px;
+        font-weight: bold;
+        color: #d9534f;
+    }
+
+        .total-row td {
+            border-top: 2px solid #d9534f !important;
+            padding: 12px;
+        }
+
+    /* Chỉnh kích thước hình ảnh */
+    .product-image {
+        width: 100px;
+        height: 120px;
+        object-fit: cover;
+        display: block;
+        margin: 0 auto; /* Căn giữa ảnh */
+    }
+
+    /* Tên sản phẩm căn giữa */
+    .product-name {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    /* STT căn giữa */
+    .index-cell {
+        text-align: center;
+        font-weight: bold;
+    }
+</style>
+
 <div class="breadcrumbs">
     <div class="container">
-        <ol class="breadcrumb breadcrumb1 animated wow slideInLeft animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: slideInLeft;">
-            <li><a href="/"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Trang chủ</a></li>
-            <li class="active">Chi tiết</li>
+        <ol class="breadcrumb breadcrumb1 animated wow slideInLeft" data-wow-delay=".5s">
+            <li><a href="/"><span class="glyphicon glyphicon-home"></span>Trang chủ</a></li>
+            <li class="active">Chi tiết đơn hàng</li>
         </ol>
     </div>
 </div>
-<!--content-->
+
 <div class="products">
     <div class="container">
-        <h2>Chi tiết đơn đặt hàng: @Request.Params["ID"]</h2>
-        <div class="col-md-9">
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th>Tên sản phẩm</th>
-                        <th>Hình ảnh</th>
-                        <th>Đơn giá</th>
-                        <th>Số lượng</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @if (Model != null && Model.Count > 0)
-                    {
-                        foreach (var item in Model)
+        <h2 class="text-center mb-4">Chi tiết đơn đặt hàng: @ViewBag.OrderID</h2>
+        <div class="col-md-12">
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped text-center">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>STT</th>
+                            <th>Tên sản phẩm</th>
+                            <th>Hình ảnh</th>
+                            <th>Đơn giá</th>
+                            <th>Số lượng</th>
+                            <th>Thành tiền</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{
+                            decimal totalAmount = 0;
+                            int index = 1;
+                        }
+                        @if (Model != null && Model.Count > 0)
                         {
-                            <tr>
-                                <td>@item.ProductName</td>
-                                <td><img src="~/Content/images/@item.ProductImage" alt="Alternate Text" style="width:50px;height:80px" /></td>
-                                <td>@item.ProductPrice</td>
-                                <td>@item.Quantity</td>
+                            foreach (var item in Model)
+                            {
+                                var price = item.ProductPrice ?? 0;
+                                var qty = item.Quantity ?? 0;
+                                var lineTotal = price * qty;
+                                totalAmount += lineTotal;
+
+                                <tr>
+                                    <td class="index-cell">@index</td>
+                                    <td class="product-name">@item.ProductName</td>
+                                    <td>
+                                        <img src="~/Content/images/@item.ProductImage" alt="@item.ProductName" class="product-image" />
+                                    </td>
+                                    <td>@price.ToString("N0") đ</td>
+                                    <td>@qty</td>
+                                    <td>@lineTotal.ToString("N0") đ</td>
+                                </tr>
+                                index++;
+                            }
+
+                            <tr class="total-row">
+                                <td colspan="5" class="text-right">Tổng tiền:</td>
+                                <td>@totalAmount.ToString("N0") đ</td>
                             </tr>
                         }
-                    }
-                    else
-                    {
-                        <tr>
-                            <td>
-                                Không có sản phẩm nào...
-                            </td>
-                        </tr>
-                    }
-                </tbody>
-            </table>
+                        else
+                        {
+                            <tr>
+                                <td colspan="6" class="text-center">Không có sản phẩm nào...</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
 </div>

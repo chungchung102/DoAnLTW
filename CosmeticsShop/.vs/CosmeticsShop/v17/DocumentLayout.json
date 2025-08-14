@@ -1,10 +1,181 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\Downloads\\cosmetics-shop-asp.net-mvc\\cosmetics-shop-asp.net-mvc\\CosmeticsShop\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|c:\\users\\admin\\downloads\\cosmetics-shop-asp.net-mvc\\cosmetics-shop-asp.net-mvc\\cosmeticsshop\\cosmeticsshop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\.vs\\CosmeticsShop\\config\\applicationhost.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.vs\\CosmeticsShop\\config\\applicationhost.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\views\\categorymanage\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\views\\categorymanage\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\views\\shared\\_homelayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\views\\shared\\_homelayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\views\\shared\\_productlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\views\\shared\\_productlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\views\\user\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\views\\user\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\views\\user\\checkoutorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\views\\user\\checkoutorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\views\\user\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\views\\user\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\controllers\\productmanagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\controllers\\productmanagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\controllers\\ordermanagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\controllers\\ordermanagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\models\\datamodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\models\\datamodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\views\\cart\\message.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\views\\cart\\message.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\models\\itemcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\models\\itemcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\views\\chat\\chating.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\views\\chat\\chating.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\views\\chat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\views\\chat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\hubs\\chathubs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\hubs\\chathubs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\views\\statistic\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\views\\statistic\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\views\\productmanage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\views\\productmanage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\views\\ordermanage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\views\\ordermanage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\config\\paypalconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\config\\paypalconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\views\\user\\confirmemaillink.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\views\\user\\confirmemaillink.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\views\\payment\\returnurl.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\views\\payment\\returnurl.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\controllers\\statisticcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\controllers\\statisticcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\views\\home\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\views\\home\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\views\\home\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\views\\home\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\cosmeticsshop\\views\\ordermanage\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5676775-5878-4B9A-A3F9-78CA2E11378E}|CosmeticsShop\\CosmeticsShop.csproj|solutionrelative:cosmeticsshop\\views\\ordermanage\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\\u0110\u1ED3 \u00E1n b\u00E1n m\u1EF9 ph\u1EA9m\\\u0110\u1ED3 \u00E1n b\u00E1n m\u1EF9 ph\u1EA9m\\DoAnLTW\\CosmeticsShop\\CosmeticsShop\\Views\\Shared\\_HomeLayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +185,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,17 +220,537 @@
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\cosmetics-shop-asp.net-mvc\\cosmetics-shop-asp.net-mvc\\CosmeticsShop\\CosmeticsShop\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "CosmeticsShop\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Downloads\\cosmetics-shop-asp.net-mvc\\cosmetics-shop-asp.net-mvc\\CosmeticsShop\\CosmeticsShop\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "CosmeticsShop\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAtwFAAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T14:40:33.114Z",
+              "Title": "applicationhost.config",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\.vs\\CosmeticsShop\\config\\applicationhost.config",
+              "RelativeDocumentMoniker": ".vs\\CosmeticsShop\\config\\applicationhost.config",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\.vs\\CosmeticsShop\\config\\applicationhost.config",
+              "RelativeToolTip": ".vs\\CosmeticsShop\\config\\applicationhost.config",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAQwLUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-08-14T09:36:03.623Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Web.config",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Web.config",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Web.config",
+              "RelativeToolTip": "CosmeticsShop\\Web.config",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAQwE0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-08-14T09:36:57.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "_HomeLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u0110\u1ED3 \u00E1n b\u00E1n m\u1EF9 ph\u1EA9m\\\u0110\u1ED3 \u00E1n b\u00E1n m\u1EF9 ph\u1EA9m\\DoAnLTW\\CosmeticsShop\\CosmeticsShop\\Views\\Shared\\_HomeLayout.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Administrator\\Desktop\\\u0110\u1ED3 \u00E1n b\u00E1n m\u1EF9 ph\u1EA9m\\\u0110\u1ED3 \u00E1n b\u00E1n m\u1EF9 ph\u1EA9m\\DoAnLTW\\CosmeticsShop\\CosmeticsShop\\Views\\Shared\\_HomeLayout.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u0110\u1ED3 \u00E1n b\u00E1n m\u1EF9 ph\u1EA9m\\\u0110\u1ED3 \u00E1n b\u00E1n m\u1EF9 ph\u1EA9m\\DoAnLTW\\CosmeticsShop\\CosmeticsShop\\Views\\Shared\\_HomeLayout.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Administrator\\Desktop\\\u0110\u1ED3 \u00E1n b\u00E1n m\u1EF9 ph\u1EA9m\\\u0110\u1ED3 \u00E1n b\u00E1n m\u1EF9 ph\u1EA9m\\DoAnLTW\\CosmeticsShop\\CosmeticsShop\\Views\\Shared\\_HomeLayout.cshtml",
+              "ViewState": "AgIAAD8BAAAAAAAAAAAIwFUBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T16:02:39.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\CategoryManage\\Details.cshtml",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Views\\CategoryManage\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\CategoryManage\\Details.cshtml",
+              "RelativeToolTip": "CosmeticsShop\\Views\\CategoryManage\\Details.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACEAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-14T09:09:18.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductManageController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Controllers\\ProductManageController.cs",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Controllers\\ProductManageController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Controllers\\ProductManageController.cs",
+              "RelativeToolTip": "CosmeticsShop\\Controllers\\ProductManageController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T08:19:34.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DataModel.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Models\\DataModel.edmx",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Models\\DataModel.edmx",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Models\\DataModel.edmx [Diagram1]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Administrator\\Desktop\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Models\\DataModel.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-08-14T07:44:33.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "CosmeticsShop\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T07:43:09.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OrderManageController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Controllers\\OrderManageController.cs",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Controllers\\OrderManageController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Controllers\\OrderManageController.cs",
+              "RelativeToolTip": "CosmeticsShop\\Controllers\\OrderManageController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T07:43:07.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "CosmeticsShop\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAqwDkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-13T16:34:40.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Startup.cs",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Startup.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Startup.cs",
+              "RelativeToolTip": "CosmeticsShop\\Startup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T16:27:04.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Chating.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\Chat\\Chating.cshtml",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Views\\Chat\\Chating.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\Chat\\Chating.cshtml",
+              "RelativeToolTip": "CosmeticsShop\\Views\\Chat\\Chating.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-13T16:23:36.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\Chat\\Index.cshtml",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Views\\Chat\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\Chat\\Index.cshtml",
+              "RelativeToolTip": "CosmeticsShop\\Views\\Chat\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-13T16:22:56.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Controllers\\UserController.cs",
+              "RelativeToolTip": "CosmeticsShop\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAiwHUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T20:23:26.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ProductLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\Shared\\_ProductLayout.cshtml",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Views\\Shared\\_ProductLayout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\Shared\\_ProductLayout.cshtml",
+              "RelativeToolTip": "CosmeticsShop\\Views\\Shared\\_ProductLayout.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAADwv0kAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T18:52:56.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_HomeLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\Shared\\_HomeLayout.cshtml",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Views\\Shared\\_HomeLayout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\Shared\\_HomeLayout.cshtml",
+              "RelativeToolTip": "CosmeticsShop\\Views\\Shared\\_HomeLayout.cshtml",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAAAJkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T12:46:59.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\Statistic\\Index.cshtml",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Views\\Statistic\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\Statistic\\Index.cshtml",
+              "RelativeToolTip": "CosmeticsShop\\Views\\Statistic\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T20:24:04.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CheckoutOrder.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\User\\CheckoutOrder.cshtml",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Views\\User\\CheckoutOrder.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\User\\CheckoutOrder.cshtml",
+              "RelativeToolTip": "CosmeticsShop\\Views\\User\\CheckoutOrder.cshtml",
+              "ViewState": "AgIAAPIAAAAAAAAAAADwvwYBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T20:24:56.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\ProductManage\\Index.cshtml",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Views\\ProductManage\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\ProductManage\\Index.cshtml",
+              "RelativeToolTip": "CosmeticsShop\\Views\\ProductManage\\Index.cshtml",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-13T10:11:59.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\Cart\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Views\\Cart\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\Cart\\Checkout.cshtml",
+              "RelativeToolTip": "CosmeticsShop\\Views\\Cart\\Checkout.cshtml",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAHAAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T19:31:14.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\OrderManage\\Index.cshtml",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Views\\OrderManage\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\OrderManage\\Index.cshtml",
+              "RelativeToolTip": "CosmeticsShop\\Views\\OrderManage\\Index.cshtml",
+              "ViewState": "AgIAAAUBAAAAAAAAAAAAwBgBAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T20:14:21.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\User\\OrderDetails.cshtml",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Views\\User\\OrderDetails.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\User\\OrderDetails.cshtml",
+              "RelativeToolTip": "CosmeticsShop\\Views\\User\\OrderDetails.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAADwv3QAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T20:25:36.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "CosmeticsShop\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAC8AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-13T08:51:40.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CosmeticsShop\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAiwCYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T08:44:55.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "CosmeticsShop\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "CosmeticsShop\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T09:02:28.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "PaypalConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Config\\PaypalConfiguration.cs",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Config\\PaypalConfiguration.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Config\\PaypalConfiguration.cs",
+              "RelativeToolTip": "CosmeticsShop\\Config\\PaypalConfiguration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T09:02:19.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CosmeticsShop\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAwwD0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T17:42:02.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ConfirmEmailLink.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\User\\ConfirmEmailLink.cshtml",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Views\\User\\ConfirmEmailLink.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\User\\ConfirmEmailLink.cshtml",
+              "RelativeToolTip": "CosmeticsShop\\Views\\User\\ConfirmEmailLink.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T20:24:54.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ReturnUrl.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\Payment\\ReturnUrl.cshtml",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Views\\Payment\\ReturnUrl.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\Payment\\ReturnUrl.cshtml",
+              "RelativeToolTip": "CosmeticsShop\\Views\\Payment\\ReturnUrl.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T20:24:29.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ConfirmEmail.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\User\\ConfirmEmail.cshtml",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Views\\User\\ConfirmEmail.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\User\\ConfirmEmail.cshtml",
+              "RelativeToolTip": "CosmeticsShop\\Views\\User\\ConfirmEmail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T20:24:51.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\Web.config",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Views\\Web.config",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\Web.config",
+              "RelativeToolTip": "CosmeticsShop\\Views\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-08-12T20:25:35.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "StatisticController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Controllers\\StatisticController.cs",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Controllers\\StatisticController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Controllers\\StatisticController.cs",
+              "RelativeToolTip": "CosmeticsShop\\Controllers\\StatisticController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAABgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T20:23:40.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "SignIn.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\Home\\SignIn.cshtml",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Views\\Home\\SignIn.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\Home\\SignIn.cshtml",
+              "RelativeToolTip": "CosmeticsShop\\Views\\Home\\SignIn.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T20:23:17.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "SignUp.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\Home\\SignUp.cshtml",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Views\\Home\\SignUp.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\Home\\SignUp.cshtml",
+              "RelativeToolTip": "CosmeticsShop\\Views\\Home\\SignUp.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T20:23:13.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\OrderManage\\Details.cshtml",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Views\\OrderManage\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\OrderManage\\Details.cshtml",
+              "RelativeToolTip": "CosmeticsShop\\Views\\OrderManage\\Details.cshtml",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAYwFkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T20:14:22.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Controllers\\ChatController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "CosmeticsShop\\Controllers\\ChatController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T19:45:45.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Message.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\Cart\\Message.cshtml",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Views\\Cart\\Message.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\Cart\\Message.cshtml",
+              "RelativeToolTip": "CosmeticsShop\\Views\\Cart\\Message.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T19:31:13.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ItemCart.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Models\\ItemCart.cs",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Models\\ItemCart.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Models\\ItemCart.cs",
+              "RelativeToolTip": "CosmeticsShop\\Models\\ItemCart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T19:27:13.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Controllers\\CartController.cs",
+              "RelativeToolTip": "CosmeticsShop\\Controllers\\CartController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAiwC0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T19:25:57.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "CosmeticsShop\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T19:01:33.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\Product\\Details.cshtml",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Views\\Product\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\Product\\Details.cshtml",
+              "RelativeToolTip": "CosmeticsShop\\Views\\Product\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T18:55:36.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "CosmeticsShop\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T19:12:07.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "CosmeticsShop\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACYAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T18:53:17.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "CosmeticsShop\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAADgv5QAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T17:57:04.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ChatHubs.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Hubs\\ChatHubs.cs",
+              "RelativeDocumentMoniker": "CosmeticsShop\\Hubs\\ChatHubs.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\ChinhThuc\\ChinhThuc\\CosmeticsShop\\CosmeticsShop\\Hubs\\ChatHubs.cs",
+              "RelativeToolTip": "CosmeticsShop\\Hubs\\ChatHubs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T14:30:40.676Z"
             }
           ]
         }

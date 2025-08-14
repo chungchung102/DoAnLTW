@@ -24,5 +24,6 @@ namespace CosmeticsShop.Models
     
         public virtual Order Order { get; set; }
         public virtual Product Product { get; set; }
+        public string Color { get; internal set; }
     }
 }

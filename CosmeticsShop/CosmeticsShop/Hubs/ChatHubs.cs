@@ -1,64 +1,39 @@
-﻿using CosmeticsShop.Models;
-using Microsoft.AspNet.SignalR;
+﻿using Microsoft.AspNet.SignalR;
+using CosmeticsShop.Models;
 using System;
-using System.Configuration;
-using TableDependency.SqlClient;
-using TableDependency.SqlClient.Base.EventArgs;
 
 namespace CosmeticsShop.Hubs
 {
     public class ChatHubs : Hub
     {
-        // Static để khởi tạo 1 lần duy nhất
-        private static SqlTableDependency<Message> tableDependency;
+        private ShoppingEntities db = new ShoppingEntities();
 
-        static ChatHubs()
+        public void SendMessage(int fromUserId, int toUserId, string content)
         {
-            try
+            var message = new Message
             {
-                string connectionString = ConfigurationManager.ConnectionStrings["ShoppingConnectionString"].ConnectionString;
+                FromUserID = fromUserId,
+                ToUserID = toUserId,
+                Content = content,
+                CreatedDate = DateTime.Now
+            };
 
-                tableDependency = new SqlTableDependency<Message>(
-                    connectionString,
-                    tableName: "Message",
-                    schemaName: "dbo",
-                    executeUserPermissionCheck: false,
-                    includeOldValues: true
-                );
+            db.Messages.Add(message);
+            db.SaveChanges();
 
-                tableDependency.OnChanged += TableDependency_Changed;
-                tableDependency.OnError += TableDependency_OnError;
-                tableDependency.Start();
-            }
-            catch (Exception ex)
+            var msgData = new
             {
-                // Ghi log hoặc thông báo lỗi rõ ràng
-                Console.WriteLine("Lỗi khởi tạo TableDependency: " + ex.Message);
-            }
-        }
+                ID = message.ID,
+                FromUserID = message.FromUserID,
+                ToUserID = message.ToUserID,
+                Content = message.Content,
+                CreatedDate = message.CreatedDate.Value.ToString("HH:mm:ss dd/MM/yyyy"),
+                FromUserName = message.User?.Name ?? "",
+                FromUserAvatar = message.User?.Avatar ?? ""
+            };
 
-        private static void TableDependency_Changed(object sender, RecordChangedEventArgs<Message> e)
-        {
-            Show();
-            ShowMessage();
-        }
-
-        private static void TableDependency_OnError(object sender, TableDependency.SqlClient.Base.EventArgs.ErrorEventArgs e)
-        {
-            // Log chi tiết lỗi ra console hoặc file
-            Console.WriteLine("Lỗi từ SqlTableDependency: " + e.Error.Message);
-        }
-
-        public static void Show()
-        {
-            IHubContext context = GlobalHost.ConnectionManager.GetHubContext<ChatHubs>();
-            context.Clients.All.displayMessage();
-        }
-
-        public static void ShowMessage()
-        {
-            IHubContext context = GlobalHost.ConnectionManager.GetHubContext<ChatHubs>();
-            context.Clients.All.displayMessageChating();
+            // Gửi cho tất cả client
+            Clients.All.receiveMessage(msgData);
         }
     }
 }

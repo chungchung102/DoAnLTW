@@ -4,106 +4,116 @@
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 @{
-    List<CosmeticsShop.Models.Category> categoryies = ViewBag.CategoryList as List<CosmeticsShop.Models.Category>;
+    List<CosmeticsShop.Models.Category> categories = ViewBag.CategoryList as List<CosmeticsShop.Models.Category>;
 }
-<!-- Content Header (Page header) -->
+
+<!-- Content Header -->
 <div class="content-header">
     <div class="container-fluid">
-        <div class="row mb-2">
+        <div class="row mb-2 align-items-center">
             <div class="col-sm-6">
-                <h1 class="m-0">Xem/Sửa sản phẩm</h1>
-            </div><!-- /.col -->
-            <div class="col-sm-6">
-                <ol class="breadcrumb float-sm-right">
-                    <li class="breadcrumb-item"><a href="#">Xem/Sửa sản phẩm</a></li>
-                </ol>
-            </div><!-- /.col -->
-        </div><!-- /.row -->
-    </div><!-- /.container-fluid -->
+                <h1 class="m-0">Chỉnh sửa sản phẩm</h1>
+            </div>
+            <div class="col-sm-6 text-sm-end">
+                @* Có thể thêm breadcrumb hoặc nút khác nếu cần *@
+            </div>
+        </div>
+    </div>
 </div>
-<!-- /.content-header -->
+
+<!-- Main Content -->
 <section class="content">
     <div class="container-fluid">
-        <div class="row">
-            <!-- left column -->
-            <div class="col-md-12">
-                <!-- general form elements -->
-                <div class="card card-primary">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="card card-primary shadow-sm">
                     <div class="card-header">
                         <h3 class="card-title">@Model.Name</h3>
                     </div>
-                    <!-- /.card-header -->
-                    <!-- form start -->
-                    @using (Html.BeginForm("Edit", "ProductManage", FormMethod.Post, new { @enctype = "multipart/form-data" }))
+                    @using (Html.BeginForm("Edit", "ProductManage", FormMethod.Post, new { enctype = "multipart/form-data" }))
                     {
-                        <input type="text" name="ID" value="@Model.ID" hidden />
+                        <input type="hidden" name="ID" value="@Model.ID" />
                         <div class="card-body">
-                            <span class="badge bg-success">@ViewBag.Message</span>
-                            <div class="form-group">
-                                <label>Tên</label>
-                                <input type="text" class="form-control" value="@Model.Name" required name="Name">
+
+                            @if (!string.IsNullOrEmpty(ViewBag.Message))
+                            {
+                                <div class="alert alert-success">
+                                    @ViewBag.Message
+                                </div>
+                            }
+
+                            <div class="mb-3">
+                                <label for="Name" class="form-label fw-semibold">Tên sản phẩm</label>
+                                <input type="text" id="Name" name="Name" class="form-control" value="@Model.Name" required maxlength="200" placeholder="Nhập tên sản phẩm" />
                             </div>
-                            <div class="form-group">
-                                <label>Danh mục</label>
-                                <select name="CategoryID" class="form-control">
-                                    @foreach (var item in categoryies)
+
+                            <div class="mb-3">
+                                <label for="CategoryID" class="form-label fw-semibold">Danh mục</label>
+                                <select id="CategoryID" name="CategoryID" class="form-select" required>
+                                    <option value="">-- Chọn danh mục --</option>
+                                    @foreach (var item in categories)
                                     {
-                                        if (item.ID == Model.CategoryID)
-                                        {
-                                            <option value="@item.ID" selected>@item.Name</option>
-                                        }
-                                        else
-                                        {
-                                            <option value="@item.ID">@item.Name</option>
-                                        }
+                                        <option value="@item.ID" @(item.ID == Model.CategoryID ? "selected" : "")>@item.Name</option>
                                     }
                                 </select>
                             </div>
-                            <div class="form-group">
-                                <label>Đơn giá</label>
-                                <input type="text" class="form-control" value="@Model.Price.Value" required name="Price">
+
+                            <div class="mb-3">
+                                <label for="Price" class="form-label fw-semibold">Đơn giá (VNĐ)</label>
+                                <input type="number" id="Price" name="Price" class="form-control"
+                                       value="@Model.Price.GetValueOrDefault()" required min="0" step="1000" placeholder="Nhập đơn giá" />
                             </div>
-                            <div class="form-group">
-                                <label>Số lượng</label>
-                                <input type="text" class="form-control" value="@Model.Quantity" required name="Quantity">
+
+                            <div class="mb-3">
+                                <label for="Quantity" class="form-label fw-semibold">Số lượng</label>
+                                <input type="number" id="Quantity" name="Quantity" class="form-control"
+                                       value="@Model.Quantity" required min="0" step="1" placeholder="Nhập số lượng" />
                             </div>
-                            <div class="form-group">
-                                <label>Lượt xem</label>
-                                <input type="text" class="form-control" value="@Model.ViewCount" required name="ViewCount" disabled>
+
+                            <div class="mb-3">
+                                <label for="ViewCount" class="form-label fw-semibold">Lượt xem</label>
+                                <input type="number" id="ViewCount" class="form-control" value="@Model.ViewCount" disabled />
                             </div>
-                            <div class="form-group">
-                                <label>Đã bán</label>
-                                <input type="text" class="form-control" value="@Model.PurchasedCount" required name="PurchasedCount" disabled>
+
+                            <div class="mb-3">
+                                <label for="PurchasedCount" class="form-label fw-semibold">Đã bán</label>
+                                <input type="number" id="PurchasedCount" class="form-control" value="@Model.PurchasedCount" disabled />
                             </div>
-                            <div class="form-group">
-                                <label>Hình 1</label>
-                                <img src="~/Content/images/@Model.Image1" alt="Alternate Text" style="width:200px;height:300px;border: solid 1px gray" />
-                                <label>Hình 2</label>
-                                <img src="~/Content/images/@Model.Image2" alt="Alternate Text" style="width:200px;height:300px;border: solid 1px gray" />
-                                <label>Hình 3</label>
-                                <img src="~/Content/images/@Model.Image3" alt="Alternate Text" style="width:200px;height:300px;border: solid 1px gray" />
+
+                            <div class="mb-3">
+                                <label class="form-label fw-semibold">Hình ảnh sản phẩm</label>
+                                <div class="row g-3">
+                                    <div class="col-md-4 text-center">
+                                        <label for="ImageUpload1" class="form-label d-block">Hình 1</label>
+                                        <img src="~/Content/images/@Model.Image1" alt="Hình 1" class="img-fluid rounded border" style="height: 300px; object-fit: cover; width: 100%;" />
+                                        <input type="file" id="ImageUpload1" name="ImageUpload" class="form-control mt-2" accept="image/*" />
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <label for="ImageUpload2" class="form-label d-block">Hình 2</label>
+                                        <img src="~/Content/images/@Model.Image2" alt="Hình 2" class="img-fluid rounded border" style="height: 300px; object-fit: cover; width: 100%;" />
+                                        <input type="file" id="ImageUpload2" name="ImageUpload" class="form-control mt-2" accept="image/*" />
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <label for="ImageUpload3" class="form-label d-block">Hình 3</label>
+                                        <img src="~/Content/images/@Model.Image3" alt="Hình 3" class="img-fluid rounded border" style="height: 300px; object-fit: cover; width: 100%;" />
+                                        <input type="file" id="ImageUpload3" name="ImageUpload" class="form-control mt-2" accept="image/*" />
+                                    </div>
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <label>Chọn hình 1 mới</label>
-                                <input type="file" class="form-control" name="ImageUpload">
+
+                            <div class="mb-3">
+                                <label for="Description" class="form-label fw-semibold">Mô tả</label>
+                                <textarea id="Description" name="Description" class="form-control" rows="5" required placeholder="Nhập mô tả sản phẩm">@Model.Description</textarea>
                             </div>
-                            <div class="form-group">
-                                <label>Chọn hình 2 mới</label>
-                                <input type="file" class="form-control" name="ImageUpload">
-                            </div>
-                            <div class="form-group">
-                                <label>Chọn hình 3 mới</label>
-                                <input type="file" class="form-control" name="ImageUpload">
-                            </div>
-                            <div class="form-group">
-                                <label>Mô tả</label>
-                                <textarea class="form-control" required name="Description">@Model.Description</textarea>
-                            </div>
+
                         </div>
-                        <!-- /.card-body -->
-                        <div class="card-footer">
-                            <a href="/ProductManage/" class="btn btn-default">Trở lại</a>
-                            <button type="submit" class="btn btn-primary">Lưu</button>
+                        <div class="card-footer d-flex justify-content-between">
+                            <a href="/ProductManage/" class="btn btn-secondary">
+                                <i class="fas fa-arrow-left me-1"></i> Trở lại
+                            </a>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-save me-1"></i> Lưu
+                            </button>
                         </div>
                     }
                 </div>

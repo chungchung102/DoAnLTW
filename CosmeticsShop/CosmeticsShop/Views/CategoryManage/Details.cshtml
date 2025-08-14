@@ -1,7 +1,7 @@
 ﻿@model CosmeticsShop.Models.Category
 @{
-    ViewBag.Title = @Model.Name;
-    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+        ViewBag.Title = @Model.Name;
+        Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 <!-- Content Header (Page header) -->
 <div class="content-header">
@@ -9,14 +9,9 @@
         <div class="row mb-2">
             <div class="col-sm-6">
                 <h1 class="m-0">Quản lý danh mục</h1>
-            </div><!-- /.col -->
-            <div class="col-sm-6">
-                <ol class="breadcrumb float-sm-right">
-                    <li class="breadcrumb-item"><a href="#">Xem/Sửa danh mục</a></li>
-                </ol>
-            </div><!-- /.col -->
-        </div><!-- /.row -->
-    </div><!-- /.container-fluid -->
+            </div>
+        </div>
+    </div>
 </div>
 <!-- /.content-header -->
 <section class="content">
@@ -32,21 +27,20 @@
                     <!-- /.card-header -->
                     <!-- form start -->
                     @using (Html.BeginForm("Edit", "CategoryManage", FormMethod.Post))
-                    {
-                        <input type="text" name="ID" value="@Model.ID" hidden />
-                        <div class="card-body">
-                            <span class="badge bg-success">@ViewBag.Message</span>
-                            <div class="form-group">
-                                <label>Tên</label>
-                                <input type="text" class="form-control" value="@Model.Name" required name="Name">
-                            </div>
+                                        {
+                    @Html.HiddenFor(m => m.ID)
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label>Tên danh mục</label>
+                            @Html.TextBoxFor(m => m.Name, new { @class = "form-control", required = "required" })
                         </div>
-                        <!-- /.card-body -->
-                        <div class="card-footer">
-                            <a href="/CategoryManage/" class="btn btn-default">Trở lại</a>
-                            <button type="submit" class="btn btn-primary">Lưu</button>
-                        </div>
-                    }
+                    </div>
+                    <!-- /.card-body -->
+                    <div class="card-footer">
+                        <a href="@Url.Action("Index", "CategoryManage")" class="btn btn-default">Trở lại</a>
+                        <button type="submit" class="btn btn-primary">Lưu</button>
+                    </div>
+                 }
                 </div>
             </div>
         </div>

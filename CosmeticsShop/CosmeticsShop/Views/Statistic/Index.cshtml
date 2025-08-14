@@ -3,29 +3,44 @@
     ViewBag.Title = "Thống kê";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
+
 <!-- Content Header (Page header) -->
-<div class="content-header">
+<section class="content-header">
     <div class="container-fluid">
-        <div class="row mb-2">
+        <div class="row mb-2 align-items-center">
+            <!-- Tiêu đề bên trái -->
             <div class="col-sm-6">
-                <h1 class="m-0">Thống kê đơn đặt hàng</h1>
-            </div><!-- /.col -->
-        </div><!-- /.row -->
-    </div><!-- /.container-fluid -->
-</div>
-<!-- /.content-header -->
-<div class="row">
-    <div class="col-12">
+                <h3 class="fw-bold text-primary mb-0">
+                    <i class="fas fa-layer-group"></i> Quản lý đơn đặt hàng
+                </h3>
+            </div>
+            <!-- Form chọn ngày bên phải -->
+            <div class="col-sm-6 text-sm-right">
+                <form action="/Statistic/" method="get" class="form-inline justify-content-end" style="gap: 10px;">
+                    <div class="form-group">
+                        <label for="from" class="mr-1">Từ:</label>
+                        <input type="date" id="from" name="from" class="form-control"
+                               value="@((ViewBag.from != null) ? ((DateTime)ViewBag.from).ToString("yyyy-MM-dd") : "")" required />
+                    </div>
+                    <div class="form-group ml-2">
+                        <label for="to" class="mr-1">Đến:</label>
+                        <input type="date" id="to" name="to" class="form-control"
+                               value="@((ViewBag.to != null) ? ((DateTime)ViewBag.to).ToString("yyyy-MM-dd") : "")" required />
+                    </div>
+                    <button type="submit" class="btn btn-info ml-2">Xem</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Main content -->
+<section class="content">
+    <div class="container-fluid">
         <div class="card">
-            <form action="/Statistic/" method="get">
-                Từ: <input type="date" name="from" value="@ViewBag.from.ToString("yyyy-MM-dd")" required />
-                Đến: <input type="date" name="to" value="@ViewBag.to.ToString("yyyy-MM-dd")" required />
-                <input type="submit" value="Xem" class="btn btn-info" />
-            </form>
-            <!-- /.card-header -->
             <div class="card-body table-responsive p-0">
-                <table class="table table-hover text-nowrap">
-                    <thead>
+                <table class="table table-hover text-nowrap table-bordered">
+                    <thead class="thead-light">
                         <tr>
                             <th>ID</th>
                             <th>Ngày đặt</th>
@@ -34,35 +49,36 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @if (Model != null && Model.Count > 0)
+                        @if (Model != null && Model.Any(x => x.Status == "Complete"))
                         {
                             foreach (var item in Model.Where(x => x.Status == "Complete"))
                             {
                                 <tr>
                                     <td>@item.ID</td>
-                                    <td>@item.DateOrder.Value.ToString("dd/MM/yyyy")</td>
-                                    <td>@item.DateShip.Value.ToString("dd/MM/yyyy")</td>
-                                    <td><span class="badge bg-success">Hoàn thành</span></td>
+                                    <td>@(item.DateOrder.HasValue ? item.DateOrder.Value.ToString("dd/MM/yyyy") : "-")</td>
+                                    <td>@(item.DateShip.HasValue ? item.DateShip.Value.ToString("dd/MM/yyyy") : "-")</td>
+                                    <td><span class="badge badge-success">Hoàn thành</span></td>
                                 </tr>
                             }
                         }
                         else
                         {
                             <tr>
-                                <td>
-                                    Chưa có đơn hàng hoàn thành...
-                                </td>
+                                <td colspan="4" class="text-center text-muted">Chưa có đơn hàng hoàn thành...</td>
                             </tr>
                         }
                     </tbody>
                 </table>
             </div>
-            <!-- /.card-body -->
+            <div class="card-footer">
+                @if (Model != null && Model.Any())
+                {
+                    <a href="@Url.Action("DownloadExcelStatisticOrder", "Statistic", new { from = Request.Params["from"], to = Request.Params["to"] })"
+                       class="btn btn-success float-right">
+                        <i class="fas fa-file-excel"></i> Xuất Excel
+                    </a>
+                }
+            </div>
         </div>
-        <!-- /.card -->
-        @if (Model != null && Model.Count > 0)
-        {
-            <a href="/Statistic/DownloadExcelStatisticOrder?from=@Request.Params["from"]&to=@Request.Params["to"]" class="btn btn-success float-right">Xuất Excel</a>
-        }
     </div>
-</div>
+</section>

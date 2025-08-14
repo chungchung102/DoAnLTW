@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Mail;
-using System.Web;
 using System.Web.Mvc;
 
 namespace CosmeticsShop.Controllers
@@ -12,63 +11,105 @@ namespace CosmeticsShop.Controllers
     public class CartController : Controller
     {
         ShoppingEntities db = new ShoppingEntities();
+
+        private string NormalizeColor(string color)
+        {
+            return string.IsNullOrWhiteSpace(color) ? "" : color.Trim();
+        }
+
         [HttpPost]
-        public JsonResult AddItem(int ProductID)
+        public JsonResult AddItem(int ProductID, string Color = null, int Quantity = 1)
         {
             Product product = db.Products.SingleOrDefault(x => x.ID == ProductID);
+            if (product == null)
+            {
+                return Json(new { status = false, message = "Sản phẩm không tồn tại." }, JsonRequestBehavior.AllowGet);
+            }
+
+            if (product.Quantity < Quantity)
+            {
+                return Json(new { status = false, message = "Số lượng không đủ! Chỉ còn " + product.Quantity + " sản phẩm." }, JsonRequestBehavior.AllowGet);
+            }
+
             if (Session["Cart"] == null)
             {
                 Session["Cart"] = new List<ItemCart>();
             }
             List<ItemCart> itemCarts = Session["Cart"] as List<ItemCart>;
-            // Kiểm tra sản phẩm đã tồn tại trong giỏ hàng chưa
-            ItemCart check = itemCarts.FirstOrDefault(x => x.ProductID == ProductID);
-            // Kiểm tra số lượng tồn
-            if (itemCarts.Count > 0 && check!= null && product.Quantity <= check.Quantity)
-            {
-                return Json(new { status = false }, JsonRequestBehavior.AllowGet);
-            }
-            // Nếu tồn tại thì + số lượng lên 1
+
+            string safeColor = NormalizeColor(Color);
+
+            // Kiểm tra sản phẩm cùng màu đã tồn tại trong giỏ chưa
+            ItemCart check = itemCarts.FirstOrDefault(x => x.ProductID == ProductID && NormalizeColor(x.Color) == safeColor);
+
             if (check != null)
             {
-                for (int i = 0; i < itemCarts.Count; i++)
+                if (product.Quantity < check.Quantity + Quantity)
                 {
-                    if (itemCarts[i].ProductID == ProductID)
-                    {
-                        itemCarts[i].Quantity += 1;
-                    }
+                    return Json(new { status = false, message = "Số lượng không đủ! Chỉ còn " + product.Quantity + " sản phẩm." }, JsonRequestBehavior.AllowGet);
                 }
+
+                check.Quantity += Quantity;
             }
-            else // Nếu chưa thì thêm mới sản phẩm vào giỏ hàng
+            else
             {
-                itemCarts.Add(new ItemCart() { ProductID = product.ID, ProductName = product.Name, ProductPrice = product.Price.Value, ProductImage = product.Image1, Quantity = 1 });
+                itemCarts.Add(new ItemCart()
+                {
+                    ProductID = product.ID,
+                    ProductName = product.Name,
+                    ProductPrice = product.Price.Value,
+                    ProductImage = product.Image1,
+                    Quantity = Quantity,
+                    Color = Color
+                });
             }
+
             Session["Cart"] = itemCarts;
             return Json(new { status = true }, JsonRequestBehavior.AllowGet);
         }
+
+
         [HttpGet]
         public JsonResult GetTotalCart()
         {
             List<ItemCart> itemCarts = Session["Cart"] as List<ItemCart>;
-            return Json(new { TotalPrice = itemCarts.Sum(x => x.ProductPrice * x.Quantity).ToString("#,##"), TotalQuantity = itemCarts.Sum(x => x.Quantity) }, JsonRequestBehavior.AllowGet);
+            if (itemCarts == null || itemCarts.Count == 0)
+            {
+                return Json(new { TotalPrice = "0", TotalQuantity = 0 }, JsonRequestBehavior.AllowGet);
+            }
+            return Json(new
+            {
+                TotalPrice = itemCarts.Sum(x => x.ProductPrice * x.Quantity).ToString("#,##"),
+                TotalQuantity = itemCarts.Sum(x => x.Quantity)
+            }, JsonRequestBehavior.AllowGet);
         }
+
         [HttpPost]
-        public JsonResult UpdateQuantity(int ProductID, int Quantity)
+        public JsonResult UpdateQuantity(int ProductID, int Quantity, string Color = null)
         {
             List<ItemCart> itemCarts = Session["Cart"] as List<ItemCart>;
+            if (itemCarts == null)
+            {
+                return Json(new { update = false }, JsonRequestBehavior.AllowGet);
+            }
+
             if (Quantity > 0)
             {
-                // Kiểm tra số lượng tồn
                 Product product = db.Products.SingleOrDefault(x => x.ID == ProductID);
-                if (itemCarts.Count > 0 && product.Quantity <= Quantity)
-                {
+                if (product == null)
                     return Json(new { update = false }, JsonRequestBehavior.AllowGet);
+
+                if (product.Quantity < Quantity)
+                {
+                    return Json(new { update = false, message = "Số lượng không đủ" }, JsonRequestBehavior.AllowGet);
                 }
             }
 
+            string safeColor = NormalizeColor(Color);
+
             for (int i = 0; i < itemCarts.Count; i++)
             {
-                if (itemCarts[i].ProductID == ProductID)
+                if (itemCarts[i].ProductID == ProductID && NormalizeColor(itemCarts[i].Color) == safeColor)
                 {
                     if (Quantity > 0)
                     {
@@ -82,35 +123,54 @@ namespace CosmeticsShop.Controllers
                     }
                 }
             }
+
             Session["Cart"] = itemCarts;
+
             if (Quantity > 0)
             {
                 return Json(new { update = true }, JsonRequestBehavior.AllowGet);
             }
             return Json(new { remove = true }, JsonRequestBehavior.AllowGet);
         }
+
         [HttpGet]
-        public JsonResult GetSubTotal(int ProductID = 1)
+        public JsonResult GetSubTotal(int ProductID = 1, string Color = null)
         {
             List<ItemCart> itemCarts = Session["Cart"] as List<ItemCart>;
-            return Json(new { SubTotal = itemCarts.Where(x => x.ProductID == ProductID).Sum(x => x.ProductPrice * x.Quantity).ToString("#,##") }, JsonRequestBehavior.AllowGet);
+            if (itemCarts == null)
+            {
+                return Json(new { SubTotal = "0" }, JsonRequestBehavior.AllowGet);
+            }
+            string safeColor = NormalizeColor(Color);
+            var subTotal = itemCarts
+                .Where(x => x.ProductID == ProductID && NormalizeColor(x.Color) == safeColor)
+                .Sum(x => x.ProductPrice * x.Quantity)
+                .ToString("#,##");
+
+            return Json(new { SubTotal = subTotal }, JsonRequestBehavior.AllowGet);
         }
+
         [HttpGet]
         public JsonResult GetTotal()
         {
             List<ItemCart> itemCarts = Session["Cart"] as List<ItemCart>;
+            if (itemCarts == null)
+            {
+                return Json(new { Total = "0" }, JsonRequestBehavior.AllowGet);
+            }
             return Json(new { Total = itemCarts.Sum(x => x.ProductPrice * x.Quantity).ToString("#,##") }, JsonRequestBehavior.AllowGet);
         }
+
         public ActionResult Checkout()
         {
             return View();
         }
+
         [HttpPost]
         public ActionResult AddOrder(string payment = "")
         {
             Models.User user = Session["User"] as Models.User;
 
-            // Add order
             Models.Order order = new Models.Order
             {
                 DateOrder = DateTime.Now,
@@ -125,7 +185,6 @@ namespace CosmeticsShop.Controllers
             int o = db.Orders.OrderByDescending(p => p.ID).FirstOrDefault().ID;
             Session["OrderId"] = o;
 
-            // Add order details
             List<ItemCart> listCart = Session["Cart"] as List<ItemCart>;
             foreach (ItemCart item in listCart)
             {
@@ -136,19 +195,18 @@ namespace CosmeticsShop.Controllers
                     Quantity = item.Quantity,
                     ProductPrice = item.ProductPrice,
                     ProductName = item.ProductName,
-                    ProductImage = item.ProductImage
+                    ProductImage = item.ProductImage,
+                    Color = item.Color
                 };
                 db.OrderDetails.Add(orderDetail);
             }
             db.SaveChanges();
 
-            // Payment
             if (payment == "momo")
             {
                 return RedirectToAction("PaymentWithMomo", "Payment");
             }
 
-            // Send confirmation email
             SentMail(
                 "Đặt hàng thành công",
                 user.Email,
@@ -166,7 +224,7 @@ namespace CosmeticsShop.Controllers
         {
             MailMessage mail = new MailMessage();
             mail.To.Add(ToEmail);
-            mail.From = new MailAddress(ToEmail);
+            mail.From = new MailAddress(FromEmail);
             mail.Subject = Title;
             mail.Body = Content;
             mail.IsBodyHtml = true;
@@ -178,6 +236,7 @@ namespace CosmeticsShop.Controllers
             smtp.EnableSsl = true;
             smtp.Send(mail);
         }
+
         public ActionResult Message(string mess)
         {
             ViewBag.Message = mess;
